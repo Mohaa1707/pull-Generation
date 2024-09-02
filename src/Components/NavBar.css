@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+}
+
+.custom-navbar {
+    padding: 0;
+}
+
+.Nav-heading-container {
+    flex: 1;
+    text-align: center;
+}
+
+.Nav-heading {
+    font-size: 1.5rem;
+    font-weight:500;
+    color: whitesmoke;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.integra-logo {
+    height: auto;
+    width: 100px; /* Adjust this based on your logo size */
+    margin-right: 10px;
+}
+input {
+    width: 100%;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.profile-name,
+.profile-code {
+    color: whitesmoke;
+    font-family: "RobotoBold";
+    margin: 0;
+}
+
+.contributor-label{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.Type-label{
+    margin-right: 100px;
+}
+.Isbn-label{
+    margin-right: 100px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .Nav-heading {
+        font-size: 1.4rem;
+    }
+
+    .integra-logo {
+        width: 90px;
+    }
+
+    .profile-icon {
+        width: 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Nav-heading {
+        font-size: 1.3rem;
+    }
+
+    .integra-logo {
+        width: 80px;
+    }
+
+    .profile-icon {
+        width: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Nav-heading {
+        font-size: 1.2rem;
+    }
+
+    .integra-logo {
+        width: 70px;
+    }
+
+    .profile-icon {
+        width: 25px;
+    }
+
+    .profile-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-name,
+    .profile-code {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .Nav-heading {
+        font-size: 1.1rem;
+    }
+
+    .integra-logo {
+        width: 60px;
+    }
+
+    .profile-icon {
+        width: 20px;
+    }
+
+    .profile-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-name,
+    .profile-code {
+        font-size: 0.9rem;
+    }
+}
